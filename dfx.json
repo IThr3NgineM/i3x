@@ -1,0 +1,17 @@
+{
+    "canisters": {
+        "i3x": {
+            "candid": "src/i3x/i3x.did",
+            "package": "i3x",
+            "type": "rust"
+        }
+    },
+    "defaults": {
+        "build": {
+            "args": "",
+            "packtool": ""
+        }
+    },
+    "output_env_file": ".env",
+    "version": 1
+}

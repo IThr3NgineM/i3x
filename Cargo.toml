@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/i3x"
+]
+resolver = "2"
