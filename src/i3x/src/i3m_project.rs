@@ -49,6 +49,5 @@ pub fn run(proj: String) -> Result<()> {
 
 pub fn initialize_core() -> Result<()> {
     println!("Initializing I3M Engine Core...");
-    // Initialize core engine components
     Ok(())
 }

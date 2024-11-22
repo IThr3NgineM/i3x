@@ -18,10 +18,8 @@ enum I3X {
 }
 
 fn main() -> Result<()> {
-    // Parse CLI options synchronously
     let opt = I3X::from_args();
 
-    // Spawn the async runtime for handling commands in an IC-compatible way
     spawn(async move {
         if let Err(e) = run_async(opt).await {
             eprintln!("Error: {:?}", e);

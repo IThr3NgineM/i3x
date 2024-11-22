@@ -16,7 +16,6 @@ candid = "0.10"
 getrandom = { version = "0.2.15", features = ["js"] }
 ic-cdk = "0.16"
 ic-cdk-timers = "0.10"
-ic-types = "0.7.0"
 ic-utils = "0.39.0"
 serde = { version = "1.0.213", features = ["derive"] }
 structopt = "0.3.26"
